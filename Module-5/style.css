@@ -1,0 +1,69 @@
+
+/* styles for index.html */
+body {
+
+
+}
+
+h1{
+    text-align: center;
+
+}
+
+p:first-of-type{
+    color: red;
+}
+
+p:nth-of-type(2){
+    color: blue;
+}
+
+p.green{
+    color: green;
+}
+
+p.big{
+    font-size: 40px;
+}
+
+p.tiny{
+    font-size: 10px;
+}
+
+p.centred{
+    text-align: center;
+}
+
+p.bold{
+    font-weight: bold;
+}
+
+p.arialn{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p.multi{
+    font-weight: bold;
+    color: orange;
+    font-size: 40px;
+}
+
+p.styledFont{
+    color: magenta;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+/*affects the last 5 instances of the paragraph p:nth-last-of-type(-n+5){
+    color: purple;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}*/
+
+/*create border by referring to the image's id attribute*/
+/*#styledImage{
+    border:10px solid orange
+}*/
+
+/*create border by referring to the image element directly*/
+img{
+    border:10px solid greenyellow
+}
