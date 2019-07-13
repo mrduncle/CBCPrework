@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jiggle into Javascript</title>
+    </head>
+    <body>
+
+        <p> Press the buttons to alter the box!</p>
+
+        <div id="box" style="height:150px; width:150px; background-color:orange; margin:25px"></div>
+
+        <button id="shrinkBtn">Shrink</button>
+        <button id="growBtn">Grow</button>
+        <button id="redBtn">Red</button>
+        <button id="resetBtn">Reset</button>
+        
+
+        <script type="text/Javascript">
+            var element = document.getElementById("box");
+            
+            document.getElementById("shrinkBtn").addEventListener("click", function(){
+
+                element.style.height = "25px";
+
+            });
+
+            document.getElementById("growBtn").addEventListener("click", function(){
+
+               element.style.height = "250px";
+
+            });
+            
+            document.getElementById("redBtn").addEventListener("click", function(){
+
+                element.style.backgroundColor = "red";
+
+            });
+  
+            document.getElementById("resetBtn").addEventListener("click", function(){
+
+                element.style.height = "150px";
+                element.style.backgroundColor = "orange";
+               
+            });
+        
+        </script>
+    </body>
+</html>
