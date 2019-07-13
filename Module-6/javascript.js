@@ -18,11 +18,17 @@ document.getElementById("button3").addEventListener("click", function(){
 
 });
 
+document.getElementById("button4").addEventListener("click", function(){
+    bxelement.style.border = "10px solid #000000";
+    bxelement.style.border.opacity = 1;
+});
+
 //reset the box with its original shape and properties
 
-document.getElementById("button4").addEventListener("click", function(){
+document.getElementById("button5").addEventListener("click", function(){
     
     bxelement.style.height = "150px";
     bxelement.style.backgroundColor = "orange";
     bxelement.style.opacity = 1;
+    bxelement.style.border = "none";
 });
